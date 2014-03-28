@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<presets>
+  <preset name="button">
+    <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
+      <layer index="0" name="label">
+        <frame index="0" name="_up">
+          <actionScript/>
+        </frame>
+        <frame index="6" name="_over">
+          <actionScript/>
+        </frame>
+        <frame index="12" name="_down">
+          <actionScript/>
+        </frame>
+      </layer>
+      <layer index="1" name="as">
+        <frame index="0" name="">
+          <actionScript>stop();</actionScript>
+        </frame>
+      </layer>
+    </timeline>
+  </preset>
+  <preset name="test">
+    <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
+      <layer index="0" name="レイヤー 4">
+        <frame index="0" name="test">
+          <actionScript>stop();</actionScript>
+        </frame>
+        <frame index="4" name="_dwon">
+          <actionScript/>
+        </frame>
+        <frame index="6" name="_up">
+          <actionScript/>
+        </frame>
+      </layer>
+    </timeline>
+  </preset>
+</presets>

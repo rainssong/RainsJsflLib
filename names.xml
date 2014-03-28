@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Commands>
+  <name source="Copy Motion as XML" target="将动画复制为 XML"></name>
+  <name source="Export Motion XML" target="导出动画 XML"></name>
+  <name source="Import Motion XML" target="导入动画 XML"></name>
+  <name source="Copy Font Name for ActionScript" target="复制 ActionScript 的字体名称"></name>
+  <name source="Publish for CreateJS" target="为 CreateJS 发布"></name>
+  <name source="Convert AS3 to HTML5 Canvas Document" target="将 AS3 转换为 HTML5 Canvas 文档"></name>
+</Commands>

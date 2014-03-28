@@ -1,0 +1,1 @@
+﻿var font = fl.getPrefString("TextFontPanel", "Platform Font Name");fl.clipCopyString(font);
