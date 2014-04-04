@@ -3,6 +3,8 @@
     var tmpdata = {};
     var folder_cnt = 0, file_cnt = 0;
     var items = fl.getDocumentDOM().library.items;
+	var date=new Date();
+	var timeString= date.toLocaleTimeString()
     var prex =
     {
         'movie clip': 'Mc',
@@ -19,13 +21,16 @@
         var pathinfo = obj.name.split('/');
         var realname = pathinfo.pop();
         var realpath = pathinfo.join('/') || '_G_L_O_B_A_L_';
-        var myfolder = pathinfo.pop() || 'RootResources';
+        var myfolder = pathinfo.pop() || 'Root';
         var id = tmpdata[realpath] || 1;
  
         if(obj.itemType !== 'folder')
         {
             var pre = prex[obj.itemType] || 'Ano';
-            obj.name = pre + '_' + myfolder + '_' + id  ;
+            
+			//obj.name = pre + id + '_'+myfolder + '_' + date.toLocaleTimeString() ;
+			obj.name = pre + id + '_' + timeString;
+		
             tmpdata[realpath] = ++id;
             file_cnt++;
         }
