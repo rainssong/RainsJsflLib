@@ -6,7 +6,6 @@
 	name = name.slice(name.lastIndexOf("/") +1);
    	name = name.replace("<","");	
 	name = name.replace(">","");
-	name = name.replace("_","");
 	name = name.replace("-","");
 	items[i].name = name ;
 	
