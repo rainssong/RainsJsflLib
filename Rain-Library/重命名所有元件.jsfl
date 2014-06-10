@@ -36,6 +36,9 @@
         }
     }
 	
+	folder_cnt = 0, file_cnt = 0;
+	tmpdata = {}
+
 	for(var i in items)
     {
         var obj = items[i];
